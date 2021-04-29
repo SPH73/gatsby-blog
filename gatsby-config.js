@@ -3,10 +3,10 @@ module.exports = {
     title: `Gatsby Blog`,
     author: {
       name: `Sue Holder`,
-      summary: `a freelance web developer in Chichester, UK, determined to give clients the most compliant codebase on the websites.`,
+      summary: `a freelance web developer in Chichester, UK, determined to give clients the most compliant codebase for their websites.`,
     },
-    description: `A test blog to show clients how to interact with their Gatsby built site and Netlify CMS.`,
-    siteUrl: `hhttps://sph73.github.io/gatsby-blog/`,
+    description: `A test blog to show clients how to interact with a Gatsby built site using Netlify CMS to write blog posts.`,
+    siteUrl: `https://sph73.github.io/gatsby-blog/`,
     social: {
       twitter: `susanpholder`,
     },

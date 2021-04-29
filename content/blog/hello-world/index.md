@@ -1,12 +1,10 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+date: "2021-04-29T14:12:03.284Z"
 description: "Hello World"
 ---
 
-This is my first post on my new fake blog! How exciting!
-
-I'm sure I'll write a lot more interesting things in the future.
+This is an example blog post.
 
 Oh, and here's a great quote from this Wikipedia on
 [salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
@@ -37,84 +35,54 @@ const saltyDuckEgg = "chinese preserved food product"
 
 This is a paragraph.
 
-    This is a paragraph.
+This is a paragraph.
 
-# Header 1
-
-## Header 2
-
-    Header 1
-    ========
-
-    Header 2
-    --------
-
-# Header 1
+This is an H1
 
 ## Header 2
 
 ### Header 3
 
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
+This is an H3
 
 #### Header 4
 
+This is an H4
+
 ##### Header 5
+
+This is an H5
 
 ###### Header 6
 
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
+This is an H6
 
+> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.  
 > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+## This is a header
 
-> ## This is a header.
->
 > 1. This is the first list item.
 > 2. This is the second list item.
 >
 > Here's some example code:
 >
->     Markdown.generate();
+> Markdown.generate();
 
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
+1. This is the first list item.
+
+2. This is the second list item.
+   > Here's some example code:
+   >
+   > Markdown.generate();
 
 - Red
 - Green
 - Blue
 
-* Red
-* Green
-* Blue
+- Red
+- Green
+- Blue
 
 - Red
 - Green
@@ -162,14 +130,6 @@ This is a paragraph.
 
 Paragraph:
 
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
 ---
 
 ---
@@ -180,15 +140,15 @@ Paragraph:
 
 ---
 
-    * * *
+`* * *`
 
-    ***
+`***`
 
-    *****
+`*****`
 
-    - - -
+`- - -`
 
-    ---------------------------------------
+`---------------------------------------`
 
 This is [an example](http://example.com "Example") link.
 
@@ -198,34 +158,34 @@ This is [an example][id] reference-style link.
 
 [id]: http://example.com "Optional Title"
 
-    This is [an example](http://example.com "Example") link.
+This is [an example](http://example.com "Example") link.
 
-    [This link](http://example.com) has no title attr.
+[This link](http://example.com) has no title attr.
 
-    This is [an example] [id] reference-style link.
+This is [an example] [id] reference-style link.
 
-    [id]: http://example.com "Optional Title"
+[id]: http://example.com "Optional Title"
 
-_single asterisks_
+`_single asterisks_`
 
-_single underscores_
+`_single underscores_`
 
-**double asterisks**
+`**double asterisks**`
 
-**double underscores**
+`**double underscores**`
 
-    *single asterisks*
+`*single asterisks*`
 
-    _single underscores_
+`_single underscores_`
 
-    **double asterisks**
+`**double asterisks**`
 
-    __double underscores__
+`__double underscores__`
 
 This paragraph has some `code` in it.
 
-    This paragraph has some `code` in it.
+This paragraph has some `code` in it.
 
 ![Alt Text](https://placehold.it/200x50 "Image Title")
 
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+![Alt Text](https://placehold.it/200x50 "Image Title")
