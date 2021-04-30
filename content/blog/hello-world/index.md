@@ -37,8 +37,6 @@ This is a paragraph.
 
 This is a paragraph.
 
-This is an H1
-
 ## Header 2
 
 ### Header 3
@@ -66,8 +64,8 @@ This is an H6
 > 2. This is the second list item.
 >
 > Here's some example code:
->
-> Markdown.generate();
+
+Markdown.generate();
 
 1. This is the first list item.
 
@@ -166,26 +164,19 @@ This is [an example] [id] reference-style link.
 
 [id]: http://example.com "Optional Title"
 
-`_single asterisks_`
-
-`_single underscores_`
-
-`**double asterisks**`
-
-`**double underscores**`
-
-`*single asterisks*`
-
-`_single underscores_`
-
-`**double asterisks**`
-
-`__double underscores__`
+> _single asterisks_  
+> _single underscores_  
+> **double asterisks**  
+> **double underscores**  
+> _single asterisks_  
+> _single underscores_  
+> **double asterisks**  
+> **double underscores**
 
 This paragraph has some `code` in it.
 
 This paragraph has some `code` in it.
 
-![Alt Text](https://placehold.it/200x50 "Image Title")
+![Alt Text](https://dummyimage.com/200x50/fff/aaa "Image Title")
 
-![Alt Text](https://placehold.it/200x50 "Image Title")
+![Alt Text](https://dummyimage.com/250x350/fff/aaa "Image Title")
